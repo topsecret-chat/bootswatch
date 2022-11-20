@@ -1,0 +1,20 @@
+// Replace $theme-colors in the original bootstrap scss/_variables.scss before compiling
+/*
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "success": $success,
+  "info": $info,
+  "warning": $warning,
+  "danger": $danger,
+  "light": $light,
+  "dark": $dark,
+  "body": $body-bg,
+  "tertiary": $purple,
+  "quaternary": $pink,
+  "quintenary": $orange) !default;
+*/
+
+@import "../../dist/superhero.x/variables";
+@import "../../bootstrap/5.2.2/scss/bootstrap";
+@import "../../dist/superhero.x/bootswatch";
