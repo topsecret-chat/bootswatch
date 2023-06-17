@@ -1,20 +1,28 @@
 // Replace $theme-colors in the original bootstrap scss/_variables.scss before compiling
+// Must switch navbar theme by using navbar-bark or navbark-light
+// N.B. Do NOT use light/dark themes but the function body/drive/reverse/neutral
 /*
 $theme-colors: (
   "primary": $primary,
   "secondary": $secondary,
+  "tertiary": $purple,
+  "quaternary": $pink,
+  "quintenary": $orange,
+
   "success": $success,
   "info": $info,
   "warning": $warning,
   "danger": $danger,
-  "light": $light,
-  "dark": $dark,
+
   "body": $body-bg,
-  "tertiary": $purple,
-  "quaternary": $pink,
-  "quintenary": $orange) !default;
+  "drive": $dark,
+  "reverse": $white,
+  "neutral": $light,
+
+  "light": $light,
+  "dark": $dark) !default;
 */
 
-@import "../../dist/superhero.x/variables";
+@import "../../dist/superhero-x/variables";
 @import "../../bootstrap/5.2.2/scss/bootstrap";
-@import "../../dist/superhero.x/bootswatch";
+@import "../../dist/superhero-x/bootswatch";
