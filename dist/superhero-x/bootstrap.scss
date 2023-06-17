@@ -5,24 +5,19 @@
 $theme-colors: (
   "primary": $primary,
   "secondary": $secondary,
-  "tertiary": $purple,
-  "quaternary": $pink,
-  "quintenary": $orange,
-
   "success": $success,
   "info": $info,
   "warning": $warning,
   "danger": $danger,
+  "light": $light,
+  "dark": $dark,
 
   "body": $body-bg,
-  "drive": $dark,
-  "reverse": $white,
-  "neutral": $light,
-
-  "light": $light,
-  "dark": $dark) !default;
+  "tertiary": $purple,
+  "quaternary": $pink,
+  "quintenary": $orange) !default;
 */
 
 @import "../../dist/superhero-x/variables";
-@import "../../bootstrap/5.2.2/scss/bootstrap";
+@import "../../bootstrap/5.2.3/scss/bootstrap";
 @import "../../dist/superhero-x/bootswatch";
